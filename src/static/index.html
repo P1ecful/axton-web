@@ -13,11 +13,24 @@
       <div class="heading-content">
         <div class="heading__top">
           <h1 class="heading__h1">axton</h1>
-          <a href="src/static/register.html" class="heading__link">
+          <a href="#" class="heading__link">
             <svg width="21" height="12" viewBox="0 0 21 12" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M10.59 1.41L14.17 5H0V7H14.17L10.58 10.59L12 12L18 6L12 0L10.59 1.41ZM19 0V12H21V0H19Z"/>
               </svg>
             Личный кабинет
+            <div class="register-main">
+              <div class="register-container">
+                  <div class="register__username">
+                      <label class="username__text" for="username">Логин:</label>
+                      <input class="username__input" type="text" id="username" name="username"/>
+                  </div>
+                  <div class="register__password">
+                      <label class="password__text" for="pass">Пароль:</label>
+                      <input class="password__input" type="password" id="pass" name="password" minlength="8" required/>
+                  </div>
+                  <input class="register__submit" type="submit" value="Войти"/>
+              </div>
+          </div>
           </a>
         </div>
         <div class="heading__bottom">
