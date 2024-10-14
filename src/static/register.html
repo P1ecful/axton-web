@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>register</title>
+</head>
+<body>
+    <main class="register-main">
+        <div class="register-container">
+            <div class="register__username">
+                <label class="username__text" for="username">Логин:</label>
+                <input class="username__input" type="text" id="username" name="username"/>
+            </div>
+            <div class="register__password">
+                <label class="password__text" for="pass">Пароль (минимум 8 символов):</label>
+                <input class="password__input" type="password" id="pass" name="password" minlength="8" required/>
+            </div>
+            <input class="register__submit" type="submit" value="Sign in"/>
+        </div>
+    </main>
+</body>
+</html>

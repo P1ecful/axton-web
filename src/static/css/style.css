@@ -240,3 +240,26 @@ h3 {
 .side-block__item:not(:last-child) {
   margin-bottom: 20px;
 }
+
+/* register-main */
+.register-main {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: auto;
+}
+
+.register-container {
+  width: 700px;
+  height: 500px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  border: 4px solid #000;
+  border-radius: 15px;
+}
